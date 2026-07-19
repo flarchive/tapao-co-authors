@@ -1,0 +1,35 @@
+tapao-co-authors:
+  email:
+    invited:
+      subject: "คุณได้รับเชิญให้เป็นผู้เขียนร่วมใน '{title}'"
+      body: "สวัสดี {recipient_display_name}!\n\n{actor_display_name} ได้เชิญคุณให้เป็นผู้เขียนร่วมในโพสต์: {discussion_title}\n\nเพื่อตอบรับหรือปฏิเสธคำเชิญ โปรดตรวจสอบโพสต์:\n{discussion_url}"
+    added:
+      subject: "คุณถูกเพิ่มเป็นผู้เขียนร่วมใน '{title}'"
+      body: "สวัสดี {recipient_display_name}!\n\n{actor_display_name} ได้เพิ่มคุณเป็นผู้เขียนร่วมในโพสต์: {discussion_title}\n\nขณะนี้คุณมีสิทธิ์ผู้เขียนร่วมสำหรับโพสต์นี้แล้ว\nตรวจสอบได้ที่นี่:\n{discussion_url}"
+  forum:
+    manage_modal:
+      title: "จัดการผู้เขียนร่วม"
+      search_placeholder: "ค้นหาผู้ใช้เพื่อเชิญ..."
+      status_pending: "รอดำเนินการ"
+      status_accepted: "ยอมรับแล้ว"
+      remove_confirm: "คุณแน่ใจหรือไม่ว่าต้องการลบผู้เขียนร่วมคนนี้?"
+    banner:
+      invited_text: "{user} ได้เชิญคุณให้เป็นผู้เขียนร่วมในโพสต์นี้"
+      accept: "ยอมรับ"
+      decline: "ปฏิเสธ"
+    composer:
+      add_co_authors: "เพิ่มผู้เขียนร่วม ({count})"
+      modal_title: "เลือกผู้เขียนร่วม"
+    discussion_controls:
+      manage_co_authors_button: "จัดการผู้เขียนร่วม"
+    notifications:
+      invited_text: "{username} เชิญคุณเป็นผู้เขียนร่วม"
+      added_text: "{username} เพิ่มคุณเป็นผู้เขียนร่วม"
+  admin:
+    settings:
+      max_co_authors_label: "จำนวนผู้เขียนร่วมสูงสุด"
+      max_co_authors_help: "จำนวนผู้เขียนร่วมสูงสุดที่อนุญาตต่อโพสต์"
+      edit_rights_label: "อนุญาตให้ผู้เขียนร่วมแก้ไขโพสต์แรก"
+      edit_rights_help: "หากปิด ผู้เขียนร่วมจะได้รับเครดิตแต่จะไม่สามารถแก้ไขโพสต์เปิดเรื่องได้ (พฤติกรรมระดับ A)"
+    permissions:
+      invite_co_authors_label: "เชิญผู้เขียนร่วมในโพสต์ของตนเอง"

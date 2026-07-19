@@ -1,0 +1,40 @@
+tapao-co-authors:
+  email:
+    invited:
+      subject: "You have been invited to co-author '{title}'"
+      body: "Hey {recipient_display_name}!\n\n{actor_display_name} has invited you to co-author a discussion: {discussion_title}\n\nTo accept or decline the invitation, check out the discussion:\n{discussion_url}"
+    added:
+      subject: "You have been added as a co-author to '{title}'"
+      body: "Hey {recipient_display_name}!\n\n{actor_display_name} has added you as a co-author to a discussion: {discussion_title}\n\nYou now have co-author privileges for this discussion.\nCheck it out here:\n{discussion_url}"
+  forum:
+    manage_modal:
+      title: "Manage Co-Authors"
+      search_placeholder: "Search for users to invite..."
+      status_pending: "Pending"
+      status_accepted: "Accepted"
+      remove_confirm: "Are you sure you want to remove this co-author?"
+    banner:
+      invited_text: "{user} has invited you to co-author this discussion."
+      accept: "Accept"
+      decline: "Decline"
+    composer:
+      add_co_authors: "Add Co-Authors ({count})"
+      modal_title: "Select Co-Authors"
+    discussion_controls:
+      manage_co_authors_button: "Manage Co-Authors"
+    notifications:
+      invited_text: "{username} invited you to co-author a discussion"
+      added_text: "{username} added you as a co-author"
+  # For more details on the format
+  # Checkout https://docs.flarum.org/2.x/extend/i18n/#appendix-a-standard-key-format
+  admin:
+    settings:
+      max_co_authors_label: "Maximum Co-Authors"
+      max_co_authors_help: "Maximum number of co-authors allowed per discussion."
+      edit_rights_label: "Allow Co-Authors to Edit First Post"
+      edit_rights_help: "If disabled, co-authors are credited visually but cannot edit the opening post (Level A behavior)."
+    permissions:
+      invite_co_authors_label: "Invite co-authors to own discussions"
+    my_cool_key: My Cool Key
+
+  forum:
