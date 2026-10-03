@@ -2,13 +2,13 @@
 
 > **Read-only archive of released versions of tapao/co-authors.** Not for installation: use [Packagist](https://packagist.org/packages/tapao/co-authors) or the [upstream repository](https://github.com/Tapao-NonSen/Co-Author).
 
-**0** versions archived · Latest: [`2.0.0`](https://github.com/flarchive/tapao-co-authors/tree/archive/v2.0.0) · License: `MIT` · Flarum: `^2.0`
+**1** versions archived · Latest: [`2.0.0`](https://github.com/flarchive/tapao-co-authors/tree/archive/v2.0.0) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `2.0.0` | 2026-07-19 | `^2.0` | [Browse](https://github.com/flarchive/tapao-co-authors/tree/archive/v2.0.0) |
 
 Catalog entry: [packages/tapao-co-authors.json](https://github.com/flarchive/archive-index/blob/main/packages/tapao-co-authors.json)
 
